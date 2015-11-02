@@ -2,7 +2,7 @@ FROM centos:centos6
 
 RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 
-RUN yum install -y > /dev/null
+RUN yum install -y npm > /dev/null
 
 COPY . /src
 
