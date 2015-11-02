@@ -4,10 +4,6 @@
   "version": "1.0.0",
   "description": "automated workflow proof of concept",
   "main": "app.js",
-  "scripts": {
-    "test": "/usr/local/bin/mocha --reporte spec test",
-    "start": "node app.js"
-  },
   "keywords": [
     "docker",
     "ci"
